@@ -19,12 +19,17 @@ export const Button = styled('button', {
 
   cursor: 'pointer',
 
-  '&:disabled': {
-    cursor: 'not-allowed',
-  },
   svg: {
     width: '$4',
     height: '$4',
+  },
+
+  '&:disabled': {
+    cursor: 'not-allowed',
+  },
+
+  '&:focus': {
+    boxShadow: '0 0 0 2px $colors$gray100',
   },
 
   variants: {
@@ -38,10 +43,11 @@ export const Button = styled('button', {
         },
 
         '&:disabled': {
-          background: '$gray200',
+          backgroundColor: '$gray200',
         },
       },
-      secundary: {
+
+      secondary: {
         color: '$ignite300',
         border: '2px solid $ignite500',
 
@@ -51,10 +57,11 @@ export const Button = styled('button', {
         },
 
         '&:disabled': {
-          background: '$gray200',
           color: '$gray200',
+          borderColor: '$gray200',
         },
       },
+
       tertiary: {
         color: '$gray100',
 
@@ -67,10 +74,12 @@ export const Button = styled('button', {
         },
       },
     },
+
     size: {
       sm: {
         height: 38,
       },
+
       md: {
         height: 46,
       },

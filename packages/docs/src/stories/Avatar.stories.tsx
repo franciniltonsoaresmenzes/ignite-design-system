@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/franciniltonsoaresmenzes.png',
     alt: 'Francinilton Soares',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

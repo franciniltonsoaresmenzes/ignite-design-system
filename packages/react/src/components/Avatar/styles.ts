@@ -4,8 +4,8 @@ import { styled } from '../../styles'
 export const AvatarContainer = styled(Avatar.Root, {
   borderRadius: '$full',
   display: 'inline-block',
-  width: '$12',
-  heigh: '$12',
+  width: '$16',
+  height: '$16',
   overflow: 'hidden',
 })
 
@@ -19,11 +19,9 @@ export const AvatarImage = styled(Avatar.Image, {
 export const AvatarFallback = styled(Avatar.Fallback, {
   width: '100%',
   height: '100%',
-
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-
   backgroundColor: '$gray600',
   color: '$gray800',
 
