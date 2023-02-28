@@ -33,5 +33,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WitchPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
+    placeholder: 'your-usename',
   },
 }
