@@ -1,5 +1,11 @@
 # @ignite-ui-fran/tokens
 
+## 3.0.0
+
+### Major Changes
+
+- Teste
+
 ## 2.0.0
 
 ### Major Changes
