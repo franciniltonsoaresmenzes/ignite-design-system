@@ -1,5 +1,11 @@
 # @ignite-ui-fran/react
 
+## 4.0.0
+
+### Major Changes
+
+- Refatorando
+
 ## 3.0.0
 
 ### Major Changes
