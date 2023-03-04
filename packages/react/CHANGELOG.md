@@ -1,5 +1,11 @@
 # @ignite-ui-fran/react
 
+## 4.1.0
+
+### Minor Changes
+
+- Resolvendo desafio da rockeseat
+
 ## 4.0.0
 
 ### Major Changes
