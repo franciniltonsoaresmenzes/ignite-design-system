@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "deploy-storybook": "storybook-to-ghpages",
     "dev": "start-storybook -p 6006",
     "build": "build-storybook"
@@ -19,6 +18,7 @@
     "@storybook/addon-interactions": "^6.5.16",
     "@storybook/addon-links": "^6.5.16",
     "@storybook/builder-vite": "^0.4.2",
+    "@storybook/jest": "^0.0.10",
     "@storybook/react": "^6.5.16",
     "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.13",
