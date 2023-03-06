@@ -1,0 +1,2 @@
+import{A as t}from"./index-b2996e62.js";import"./index-be0b9e81.js";import"./iframe-2d86a3d5.js";import"./index-21c6bad0.js";import"./jsx-runtime-4ca556c9.js";const n={title:"Data disĺay/Avatar",component:t,args:{src:"https://github.com/franciniltonsoaresmenzes.png",alt:"Francinilton Soares"},argTypes:{src:{control:{type:"text"}}}},c={},e={args:{src:void 0}},m=["Primary","WithFallBack"];export{c as Primary,e as WithFallBack,m as __namedExportsOrder,n as default};
+//# sourceMappingURL=Avatar.stories-4a3a09dc.js.map
